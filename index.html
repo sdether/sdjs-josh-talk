@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>San Diego JS</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+  <script>Josh = {Debug: true };</script>
+  <script src="js//killring.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/readline.js"></script>
+  <script src="js/shell.js"></script>
+  <script src="js/pathhandler.js"></script>
+  <script src="js/example.js"></script>
+  <script src="js/console.js"></script>
+  <style type="text/css">
+    #shell-panel {
+      display: none;
+      height: 300px;
+      width: 100.0%;
+      opacity: 0.8;
+      background-color: #002205;
+      color: #00fe00;
+      position: fixed;
+      padding: 20px 20px 20px 20px;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      font-family: 'Source Code Pro', sans-serif;
+      font-size: 1.5em;
+      overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    #allgui {
+      display: none;
+      background-color: #002f05;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+    }
+
+    #allgui-text {
+      margin: 100px;
+      color: #00fe00;
+      font-family: 'Source Code Pro', sans-serif;
+      font-size: 1.4em;
+      white-space: pre-wrap;
+    }
+
+    #demo-panel {
+      height: 400px;
+      width: 100%;
+      background-color: #002f05;
+      color: #00fe00;
+      padding: 20px 20px 20px 20px;
+      font-family: 'Source Code Pro';
+      font-size: 0.8em;
+      text-align: left;
+      overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      border: 1px dashed #E6EBE0;
+    }
+
+    #shell-cli .prompt {
+      font-weight: bold;
+    }
+
+  #demo-cli .prompt {
+  font-weight: bold;
+  }</style>
+</head>
+
+<body>
+<div id="shell-panel">
+  <div>Type <code>help</code> or hit <code>TAB</code> for a list of commands. Press
+    <code>Ctrl-C</code> to hide the console.
+  </div>
+  <div id="shell-view"></div>
+</div>
+<div id="allgui">
+  <div id="allgui-text"><span class="cursor"></span></div>
+</div>
+<div class="reveal">
+
+  <div class="slides">
+    <section>
+      <h1>JOSH.js</h1>
+
+      <div>
+        <br>
+      </div>
+      <h3>Javascript Online SHell</h3>
+
+      <div>
+        <br>
+      </div>
+      <div><em>Because every site deserves a CLI</em></div>
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>Arne Claassen</div>
+      <div>@sdether</div>
+      <div>MindTouch</div>
+    </section>
+    <section data-state="allgui">
+      <h2>
+        <img src="img/advice.png"
+             style="width: 694px; height: 431.61095890410957px; max-height: none; max-width: none; ">
+      </h2>
+    </section>
+    <section>
+      <h2 id="allthethings-title">GUI ALL THE THINGS?</h2>
+
+      <div>
+        <img id="allthethings-img" src="img/allthe.png">
+      </div>
+    </section>
+    <section>
+      <h2>WHAT is READLINE</h2>
+      <blockquote>"GNU readline is a software library that provides line-editing and history capabilities for
+        interactive programs with a command-line interface, such as Bash."
+      </blockquote>
+      <div>
+        <br/>
+
+        <p class="fragment" data-fragment-index="0">
+          <em>josh.js</em> provides native javascript readline support
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>What's in josh.js?</h2>
+      <ul>
+        <li class="fragment">Readline</li>
+        <li class="fragment">History
+          <ul>
+            <li>by default backed by local storage</li>
+          </ul>
+        </li>
+        <li class="fragment">Killring
+          <ul>
+            <li>clipboard on steroids</li>
+          </ul>
+        </li>
+        <li class="fragment">Shell
+          <ul>
+            <li>Basic text shell</li>
+            <li>Command handling</li>
+            <li>tab completion</li>
+            <li>reverse search</li>
+          </ul>
+        </li>
+        <li class="fragment">PathHandler
+          <ul>
+            <li>support for unix style path hierarchy navigation</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Command Handlers</h2>
+
+      <pre><code data-trim="" contenteditable="" class="javascript">
+shell.setCommandHandler("command", {
+  exec: function (cmd, args, callback) {
+    ...
+  }
+);
+    </code></pre>
+    </section>
+    <section>
+      <h2>Completion Handlers</h2>
+      <pre><code data-trim="" contenteditable="" class="javascript">
+shell.setCommandHandler("command", {
+  exec: ...,
+  completion: function (cmd, arg, line, callback) {
+    ...
+  }
+);
+      </code></pre>
+    </section>
+    <section data-state="demo">
+      <h2>A simple shell</h2>
+      <div id="demo-panel">
+        <div id="demo-view"></div>
+      </div>
+    </section>
+    <section>
+      <h2>BUILT-IN COMMANDS</h2>
+    </section>
+    <section>
+      <h2>Path Handling</h2>
+    </section>
+    <section>
+      <h2>JOSH.js @ MindTouch</h2>
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>
+        <a href="http://help.mindtouch.us" target="_blank">http://help.mindtouch.us</a>
+      </div>
+
+
+    </section>
+    <section>
+      <h2>Project Status</h2>
+    </section>
+    <section>
+      <h2>Docs & Examples</h2>
+
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>
+        <a href="http://sdether.github.io/josh.js/" target="_blank">http://sdether.github.io/josh-js</a>
+      </div>
+    </section>
+    <section>
+      <h2>THANKS</h2>
+
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>Arne Claassen</div>
+      <div>
+        <i>@sdether</i>
+      </div>
+      <div>MindTouch</div>
+    </section>
+  </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function () {
+        return !document.body.classList;
+      } },
+      { src: 'plugin/markdown/marked.js', condition: function () {
+        return !!document.querySelector('[data-markdown]');
+      } },
+      { src: 'plugin/markdown/markdown.js', condition: function () {
+        return !!document.querySelector('[data-markdown]');
+      } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+        return !!document.body.classList;
+      } },
+    ]
+  });
+
+</script>
+<script src="js/slides.js"></script>
+
+</body>
+</html>
