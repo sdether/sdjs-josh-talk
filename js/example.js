@@ -14,9 +14,18 @@
  * limitations under the License.
  *-------------------------------------------------------------------------*/
 (function(root, $, _) {
-  Josh.Example = (function(root, $, _) {
+  $(document).ready(function() {
 
-    // Enable console debugging, when Josh.Debug is set and there is a console object on the document root.
+    // The default name for the div the shell uses as its container is `shell-panel`, although that can be changed via
+    // the shell config parameter `shell-panel-id`. The `Shell` display model relies on a 'panel' to contain a 'view'.
+    // The 'panel' acts as the view-port, i.e. the visible portion of the shell content, while the 'view' is appended
+    // to and scrolled up as new content is added.
+    var $consolePanel = $('#demo-panel');
+
+    // We use **jquery-ui**'s `resizable` to let us drag the bottom edge of the console up and down.
+    $consolePanel.resizable({ handles: "s"});
+
+  // Enable console debugging, when Josh.Debug is set and there is a console object on the document root.
     var _console = (Josh.Debug && root.console) ? root.console : {
       log: function() {
       }
@@ -35,10 +44,11 @@
     // Create the `ReadLine` instance by hand so that we can provide it our `KillRing`. Since the shell needs to share
     // the `History` object with `ReadLine` and `Shell` isn't getting to create `ReadLine` automatically as it usually does
     // we need to pass in `History` into `ReadLine` as well.
-    var readline = new Josh.ReadLine({history: history, killring: killring, console: _console });
+    var readline = new Josh.ReadLine({history: history, killring: killring, console: _console, element: $consolePanel.get(0) });
 
     // Finally, create the `Shell`.
     var shell = Josh.Shell({
+      element: $consolePanel.get(0),
       shell_view_id: "demo-view",
       shell_panel_id: "demo-panel",
       input_id: "demo-cli",
@@ -47,6 +57,14 @@
       console: _console
     });
 
+    $consolePanel.focus(function() {
+      Reveal.blur();
+      shell.activate();
+    });
+    $consolePanel.blur(function() {
+      Reveal.focus();
+      shell.deactivate();
+    });
 
     // Create *killring* command
     // -------------------------
@@ -150,28 +168,6 @@
       return findNode(current, _.rest(parts), callback);
     }
 
-    function focus() {
-        console.log("focus!");
-        Reveal.blur();
-        shell.activate();
-    }
-
-    var $consolePanel;
-    $(document).ready(function() {
-
-      // The default name for the div the shell uses as its container is `shell-panel`, although that can be changed via
-      // the shell config parameter `shell-panel-id`. The `Shell` display model relies on a 'panel' to contain a 'view'.
-      // The 'panel' acts as the view-port, i.e. the visible portion of the shell content, while the 'view' is appended
-      // to and scrolled up as new content is added.
-      $consolePanel = $('#demo-panel');
-
-      // We use **jquery-ui**'s `resizable` to let us drag the bottom edge of the console up and down.
-      $consolePanel.resizable({ handles: "s"});
-      $consolePanel.click(function() {
-        focus();
-      })
-    });
-
     // This code builds our *fake* directory structure. Since most real applications of `Josh` would not keep their
     // entire hierarchy in memory, but instead make callbacks to a server to find nodes and node children, the details
     // of this function are of little interest.
@@ -261,17 +257,5 @@
       return tree;
     }
 
-    return {
-      Tree: treeroot,
-      Shell: shell,
-      PathHandler: pathhandler,
-      KillRing: killring,
-      focus: focus,
-      blur: function() {
-        $consolePanel.blur();
-        Reveal.focus();
-        shell.deactivate();
-      }
-    };
-  })(root, $, _);
+  });
 })(this, $, _);

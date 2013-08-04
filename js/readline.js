@@ -48,6 +48,7 @@ Josh.Version = "0.2.7";
     var _history = config.history || new Josh.History();
     var _deactivationKey = config.deactivationKey || { keyCode: 27 }; // Esc
     var _killring = config.killring || new Josh.KillRing();
+    var _element = config.element || root;
     var _active = false;
     var _onActivate;
     var _onDeactivate;
@@ -527,7 +528,7 @@ Josh.Version = "0.2.7";
 
 
     // set up key capture
-    root.onkeydown = function(e) {
+    _element.onkeydown = function(e) {
       e = e || window.event;
 
       // return as unhandled if we're not active or the key is just a modifier key
@@ -660,7 +661,7 @@ Josh.Version = "0.2.7";
       return false;
     };
 
-    root.onkeypress = function(e) {
+    _element.onkeypress = function(e) {
       if(!_active) {
         return true;
       }

@@ -25,10 +25,10 @@
 
   function demo() {
     console.log("demo")
-    Josh.Example.focus();
+    $("#demo-panel").focus();
     $(document).keydown(function (event) {
       if(event.keyCode == 27) {
-        Josh.Example.blur();
+        $("#demo-panel").blur();
       }
     });
   }

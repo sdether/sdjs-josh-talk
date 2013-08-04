@@ -84,9 +84,9 @@
       font-weight: bold;
     }
 
-  #demo-cli .prompt {
-  font-weight: bold;
-  }</style>
+    #demo-cli .prompt {
+      font-weight: bold;
+    }</style>
 </head>
 
 <body>
@@ -131,8 +131,6 @@
       </h2>
     </section>
     <section>
-      <h2 id="allthethings-title">GUI ALL THE THINGS?</h2>
-
       <div>
         <img id="allthethings-img" src="img/allthe.png">
       </div>
@@ -167,9 +165,9 @@
         <li class="fragment">Shell
           <ul>
             <li>Basic text shell</li>
+            <li>Tab completion</li>
+            <li>Reverse search</li>
             <li>Command handling</li>
-            <li>tab completion</li>
-            <li>reverse search</li>
           </ul>
         </li>
         <li class="fragment">PathHandler
@@ -178,6 +176,13 @@
           </ul>
         </li>
       </ul>
+    </section>
+    <section data-state="demo">
+      <h2>A simple shell</h2>
+
+      <div tabindex="0" id="demo-panel">
+        <div id="demo-view"></div>
+      </div>
     </section>
     <section>
       <h2>Command Handlers</h2>
@@ -188,7 +193,7 @@ shell.setCommandHandler("command", {
     ...
   }
 );
-    </code></pre>
+      </code></pre>
     </section>
     <section>
       <h2>Completion Handlers</h2>
@@ -199,22 +204,55 @@ shell.setCommandHandler("command", {
     ...
   }
 );
-      </code></pre>
-    </section>
-    <section data-state="demo">
-      <h2>A simple shell</h2>
-      <div id="demo-panel">
-        <div id="demo-view"></div>
-      </div>
+</code></pre>
     </section>
     <section>
       <h2>BUILT-IN COMMANDS</h2>
+      <ul>
+        <li class="fragment">Shell
+          <ul>
+            <li>clear</li>
+            <li>history</li>
+            <li>help</li>
+          </ul>
+        </li>
+        <li class="fragment">PathHandler
+          <ul>
+            <li>cd</li>
+            <li>ls</li>
+            <li>pwd</li>
+          </ul>
+        </li>
+      </ul>
     </section>
     <section>
       <h2>Path Handling</h2>
+      <div class="fragment">Node format
+      <pre><code data-trim="" contenteditable="" class="javascript">
+{
+    name: 'localname',
+    path: '/full/path/to/localname'
+}
+</code></pre>
+      </div>
+      <div class="fragment">getNode
+      <pre><code data-trim="" contenteditable="" class="javascript">
+pathhandler.getNode = function(path, callback) {
+  // call callback with a node
+};
+</code></pre>
+        </div>
+        <div class="fragment">getChildNodes
+      <pre><code data-trim="" contenteditable="" class="javascript">
+pathhandler.getChildNodes = function(node, callback) {
+  // call callback with an array of nodes
+}
+</code></pre>
+        </div>
     </section>
     <section>
       <h2>JOSH.js @ MindTouch</h2>
+
       <div>
         <br>
       </div>
@@ -229,9 +267,6 @@ shell.setCommandHandler("command", {
       </div>
 
 
-    </section>
-    <section>
-      <h2>Project Status</h2>
     </section>
     <section>
       <h2>Docs & Examples</h2>
@@ -286,17 +321,19 @@ shell.setCommandHandler("command", {
 
     // Optional libraries used to extend on reveal.js
     dependencies: [
-      { src: 'lib/js/classList.js', condition: function () {
+      { src: 'lib/js/classList.js', condition: function() {
         return !document.body.classList;
       } },
-      { src: 'plugin/markdown/marked.js', condition: function () {
+      { src: 'plugin/markdown/marked.js', condition: function() {
         return !!document.querySelector('[data-markdown]');
       } },
-      { src: 'plugin/markdown/markdown.js', condition: function () {
+      { src: 'plugin/markdown/markdown.js', condition: function() {
         return !!document.querySelector('[data-markdown]');
       } },
-      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() {
+        hljs.initHighlightingOnLoad();
+      } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() {
         return !!document.body.classList;
       } },
     ]

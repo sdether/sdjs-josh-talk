@@ -2,95 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1a8423-6c60-4208-8df5-54867f7f41ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/advice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/allthe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/font/league_gothic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/font/league_gothic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/font/league_gothic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sdjs-josh-talk.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xallthey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/beige.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/beige.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/js/classList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/multiplex/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/notes-server/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/markdown/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/postmessage/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/markdown/example.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/js/head.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/highlight/highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/multiplex/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/notes-server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/killring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/font/league_gothic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/font/league_gothic_license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/markdown/marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/multiplex/master.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/template/mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/moon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/moon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/night.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/notes/notes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/notes-server/notes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/notes/notes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/print/paper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/pathhandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/print/pdf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/postmessage/postmessage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/readline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/remotes/remotes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reveal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reveal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/reveal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reveal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/reveal.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/serif.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/serif.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/template/settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/shell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/simple.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/sky.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/sky.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/slides.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/solarized.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/source/solarized.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme/template/theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/css/zenburn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/allthe.png" afterPath="$PROJECT_DIR$/img/allthe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/xallthey.png" afterPath="$PROJECT_DIR$/img/xallthey.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/console.js" afterPath="$PROJECT_DIR$/js/console.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/example.js" afterPath="$PROJECT_DIR$/js/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readline.js" afterPath="$PROJECT_DIR$/js/readline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/slides.js" afterPath="$PROJECT_DIR$/js/slides.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sdjs-josh-talk.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375294237054" ignored="false" />
-    <file path="/index.html" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375477579176" ignored="false" />
-    <file path="/a.dummy" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375300703455" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375640735450" ignored="false" />
+    <file path="/index.html" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375643701348" ignored="false" />
+    <file path="/a.dummy" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375640443168" ignored="false" />
     <file path="/reveal.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375305571957" ignored="false" />
     <file path="/console.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375475662593" ignored="false" />
-    <file path="/slides.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375477661352" ignored="false" />
-    <file path="/example.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375477969856" ignored="false" />
+    <file path="/slides.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375642265585" ignored="false" />
+    <file path="/example.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375642185706" ignored="false" />
+    <file path="$PROJECT_DIR$/../josh.js/js/readline.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375640510896" ignored="false" />
+    <file path="$PROJECT_DIR$/../josh.js-pages/javascripts/example.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375641552349" ignored="false" />
+    <file path="$PROJECT_DIR$/../josh.js-pages/index.html" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375641579415" ignored="false" />
+    <file path="/a.html" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375643241137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="23" selection-start="2267" selection-end="2267" vertical-scroll-proportion="-8.166667">
+            <state line="270" column="0" selection-start="6866" selection-end="6866" vertical-scroll-proportion="0.233255">
               <folding>
                 <element signature="n#style#0;n#img#0;n#h2#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -125,19 +58,17 @@
         <entry file="file://$PROJECT_DIR$/js/pathhandler.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="61" column="0" selection-start="2318" selection-end="2403" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="example.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="16" selection-start="7907" selection-end="7907" vertical-scroll-proportion="0.60795456">
+            <state line="142" column="58" selection-start="6851" selection-end="6905" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#8234#9992#0" expanded="false" />
+                <element signature="e#8222#9980#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,7 +77,7 @@
       <file leaf-file-name="slides.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/slides.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="3" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+            <state line="11" column="41" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,9 +87,7 @@
         <entry file="file://$PROJECT_DIR$/js/reveal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1826" column="24" selection-start="50598" selection-end="50598" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,9 +95,20 @@
       <file leaf-file-name="shell.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/shell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="20" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
+            <state line="347" column="22" selection-start="11357" selection-end="11357" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readline.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/readline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="8" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1375641903020" expanded="true" signature="1162:16098" placeholder="{...}" />
+                <marker date="1375641903020" expanded="true" signature="11076:11118" placeholder="{...}" />
+                <marker date="1375641903020" expanded="true" signature="12278:15594" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -183,22 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/theme/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="11" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/console.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="20" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="41" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,13 +135,8 @@
       <file leaf-file-name="reveal.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reveal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="355" column="0" selection-start="12322" selection-end="12439" vertical-scroll-proportion="-8.081633">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#section#3;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#section#2;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#code#0;n#pre#0;n#section#12;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#section#18;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="355" column="0" selection-start="12322" selection-end="12439" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -238,18 +162,19 @@
         <option value="$PROJECT_DIR$/reveal.html" />
         <option value="$PROJECT_DIR$/js/reveal.js" />
         <option value="$PROJECT_DIR$/css/theme/default.css" />
+        <option value="$PROJECT_DIR$/js/readline.js" />
+        <option value="$PROJECT_DIR$/js/example.js" />
+        <option value="$PROJECT_DIR$/js/slides.js" />
         <option value="$PROJECT_DIR$/js/console.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/slides.js" />
-        <option value="$PROJECT_DIR$/js/example.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="139" />
-    <option name="y" value="22" />
-    <option name="width" value="1545" />
-    <option name="height" value="1028" />
+    <option name="x" value="-1208" />
+    <option name="y" value="-459" />
+    <option name="width" value="1216" />
+    <option name="height" value="1936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -331,20 +256,9 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.general" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="90983ac6-f052-4c3b-bdbc-1679e6db4901">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -364,7 +278,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -381,26 +295,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="139" y="22" width="1545" height="1028" extended-state="0" />
+    <frame x="-1208" y="-459" width="1216" height="1936" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21480988" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.21837088" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" x="0" y="0" width="294" height="995" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -473,18 +387,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/reveal.css">
+    <entry file="file://$PROJECT_DIR$/css/theme/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1270" column="1" selection-start="32966" selection-end="32966" vertical-scroll-proportion="0.0">
+        <state line="42" column="11" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/readline.js">
+    <entry file="file://$PROJECT_DIR$/js/pathhandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="2318" selection-end="2403" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="20" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reveal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="0" selection-start="12322" selection-end="12439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reveal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1270" column="1" selection-start="32966" selection-end="32966" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/theme/moon.css">
@@ -503,30 +436,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reveal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="355" column="0" selection-start="12322" selection-end="12439" vertical-scroll-proportion="-8.081633">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#section#3;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#section#2;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#code#0;n#pre#0;n#section#12;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#section#18;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="355" column="0" selection-start="12322" selection-end="12439" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/reveal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1826" column="24" selection-start="50598" selection-end="50598" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/slides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/shell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="20" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
+        <state line="347" column="22" selection-start="11357" selection-end="11357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="8" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375641903020" expanded="true" signature="1162:16098" placeholder="{...}" />
+            <marker date="1375641903020" expanded="true" signature="11076:11118" placeholder="{...}" />
+            <marker date="1375641903020" expanded="true" signature="12278:15594" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -534,46 +483,43 @@
     <entry file="file://$PROJECT_DIR$/js/pathhandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="2318" selection-end="2403" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="23" selection-start="2267" selection-end="2267" vertical-scroll-proportion="-8.166667">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#h2#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/slides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="3" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="16" selection-start="7907" selection-end="7907" vertical-scroll-proportion="0.60795456">
+        <state line="142" column="58" selection-start="6851" selection-end="6905" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#8234#9992#0" expanded="false" />
+            <element signature="e#8222#9980#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="270" column="0" selection-start="6866" selection-end="6866" vertical-scroll-proportion="0.233255">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h2#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

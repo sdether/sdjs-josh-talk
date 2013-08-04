@@ -17,7 +17,6 @@
   var shell = Josh.Shell();
   shell.setCommandHandler("fixup", {
     exec: function (cmd, args, callback) {
-      $("#allthethings-title").html("CLI all the things");
       $("#allthethings-img").attr("src", "img/xallthey.png");
       callback("Ok");
     },
@@ -40,7 +39,6 @@
         shell.activate();
         $consolePanel.slideDown();
         $consolePanel.focus();
-        Josh.Example.blur();
         Reveal.blur();
       }
     });
