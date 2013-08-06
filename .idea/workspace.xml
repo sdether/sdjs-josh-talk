@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1a8423-6c60-4208-8df5-54867f7f41ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/allthe.png" afterPath="$PROJECT_DIR$/img/allthe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/xallthey.png" afterPath="$PROJECT_DIR$/img/xallthey.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/console.js" afterPath="$PROJECT_DIR$/js/console.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/example.js" afterPath="$PROJECT_DIR$/js/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readline.js" afterPath="$PROJECT_DIR$/js/readline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/slides.js" afterPath="$PROJECT_DIR$/js/slides.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sdjs-josh-talk.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375640735450" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375651402477" ignored="false" />
     <file path="/index.html" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375643701348" ignored="false" />
-    <file path="/a.dummy" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375640443168" ignored="false" />
+    <file path="/a.dummy" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375652203245" ignored="false" />
     <file path="/reveal.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375305571957" ignored="false" />
     <file path="/console.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375475662593" ignored="false" />
     <file path="/slides.js" changelist="8a1a8423-6c60-4208-8df5-54867f7f41ac" time="1375642265585" ignored="false" />
@@ -46,9 +41,11 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="270" column="0" selection-start="6866" selection-end="6866" vertical-scroll-proportion="0.233255">
+            <state line="254" column="2" selection-start="6402" selection-end="6402" vertical-scroll-proportion="0.65617716">
               <folding>
                 <element signature="n#style#0;n#img#0;n#h2#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#section#9;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#section#10;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,9 +64,7 @@
         <entry file="file://$PROJECT_DIR$/js/example.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="142" column="58" selection-start="6851" selection-end="6905" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#8222#9980#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,11 +100,7 @@
         <entry file="file://$PROJECT_DIR$/js/readline.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="98" column="8" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1375641903020" expanded="true" signature="1162:16098" placeholder="{...}" />
-                <marker date="1375641903020" expanded="true" signature="11076:11118" placeholder="{...}" />
-                <marker date="1375641903020" expanded="true" signature="12278:15594" placeholder="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,10 +162,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1208" />
-    <option name="y" value="-459" />
-    <option name="width" value="1216" />
-    <option name="height" value="1936" />
+    <option name="x" value="49" />
+    <option name="y" value="22" />
+    <option name="width" value="1326" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -257,8 +248,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -295,14 +286,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1208" y="-459" width="1216" height="1936" extended-state="6" />
+    <frame x="49" y="22" width="1326" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.21837088" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" x="0" y="0" width="294" height="995" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21794872" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" x="49" y="22" width="294" height="778" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -311,7 +303,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -472,11 +463,7 @@
     <entry file="file://$PROJECT_DIR$/js/readline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="8" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1375641903020" expanded="true" signature="1162:16098" placeholder="{...}" />
-            <marker date="1375641903020" expanded="true" signature="11076:11118" placeholder="{...}" />
-            <marker date="1375641903020" expanded="true" signature="12278:15594" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -490,17 +477,17 @@
     <entry file="file://$PROJECT_DIR$/js/example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="58" selection-start="6851" selection-end="6905" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#8222#9980#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="0" selection-start="6866" selection-end="6866" vertical-scroll-proportion="0.233255">
+        <state line="254" column="2" selection-start="6402" selection-end="6402" vertical-scroll-proportion="0.65617716">
           <folding>
             <element signature="n#style#0;n#img#0;n#h2#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#section#9;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#section#10;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>

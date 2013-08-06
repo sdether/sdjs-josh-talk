@@ -61,7 +61,7 @@
       margin: 100px;
       color: #00fe00;
       font-family: 'Source Code Pro', sans-serif;
-      font-size: 1.4em;
+      font-size: 1.5em;
       white-space: pre-wrap;
     }
 
@@ -131,6 +131,28 @@
       </h2>
     </section>
     <section>
+      <h1>JOSH.js</h1>
+
+      <div>
+        <br>
+      </div>
+      <h3>Javascript Online SHell</h3>
+
+      <div>
+        <br>
+      </div>
+      <div><em>Because every site deserves a CLI</em></div>
+      <div>
+        <br>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div>Arne Claassen</div>
+      <div>@sdether</div>
+      <div>MindTouch</div>
+    </section>
+    <section>
       <div>
         <img id="allthethings-img" src="img/allthe.png">
       </div>
@@ -177,6 +199,25 @@
         </li>
       </ul>
     </section>
+    <section>
+      <h2>BUILT-IN COMMANDS</h2>
+      <ul>
+        <li class="fragment">Shell
+          <ul>
+            <li>clear</li>
+            <li>history</li>
+            <li>help</li>
+          </ul>
+        </li>
+        <li class="fragment">PathHandler
+          <ul>
+            <li>cd</li>
+            <li>ls</li>
+            <li>pwd</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
     <section data-state="demo">
       <h2>A simple shell</h2>
 
@@ -207,33 +248,14 @@ shell.setCommandHandler("command", {
 </code></pre>
     </section>
     <section>
-      <h2>BUILT-IN COMMANDS</h2>
-      <ul>
-        <li class="fragment">Shell
-          <ul>
-            <li>clear</li>
-            <li>history</li>
-            <li>help</li>
-          </ul>
-        </li>
-        <li class="fragment">PathHandler
-          <ul>
-            <li>cd</li>
-            <li>ls</li>
-            <li>pwd</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <section>
       <h2>Path Handling</h2>
       <div class="fragment">Node format
       <pre><code data-trim="" contenteditable="" class="javascript">
 {
-    name: 'localname',
-    path: '/full/path/to/localname'
+  name: 'localname',
+  path: '/full/path/to/localname'
 }
-</code></pre>
+      </code></pre>
       </div>
       <div class="fragment">getNode
       <pre><code data-trim="" contenteditable="" class="javascript">
